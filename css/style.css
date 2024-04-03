@@ -20,6 +20,9 @@ body{
     width: 100%;
     background: rgb(0, 0, 0, 0.4);
 }
+.navbar-nav{
+    gap:15px
+}
 #home .navbar a,
 #about .navbar a,
 #ourProduct a,
