@@ -1,241 +1,252 @@
-body{
-    overflow-x: hidden;
-    font-family:  serif;
+body {
+  overflow-x: hidden;
+  font-family: serif;
 }
 /* HOME */
-#home{
-    background: 
-    url(/img/seller7.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 610px;
-    position: relative;
+#home {
+  background: url(/img/seller7.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 610px;
+  position: relative;
 }
-.dark-overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 610px;
-    width: 100%;
-    background: rgb(0, 0, 0, 0.4);
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 610px;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.4);
 }
-.navbar-nav{
-    gap:15px
+.navbar-nav {
+  gap: 15px;
 }
 #home .navbar a,
 #about .navbar a,
 #ourProduct a,
-#contact-hero a{
-    color: #fff;
-    font-size: 22px;
+#contact-hero a {
+  color: #fff;
+  font-size: 22px;
 }
-.active{
-    border-bottom: #fff 2px solid;
+.active {
+  border-bottom: #fff 2px solid;
 }
-i{
-    font-size: 18px;
+i {
+  font-size: 18px;
 }
-i, button, span{
-    color: #fff;
-    cursor: pointer;
+i,
+button,
+span {
+  color: #fff;
+  cursor: pointer;
 }
-.shop{
-    font-size: 22px;
-    color: #fff;
+.shop {
+  font-size: 22px;
+  color: #fff;
 }
-.circle-base{
-    border-radius: 50%;
+.circle-base {
+  border-radius: 50%;
 }
-.cirkle{
-    width: 70px;
-    height: 70px;
-    background: none;
-    border: 1px solid #fff;
-    position: relative;
+.cirkle {
+  width: 70px;
+  height: 70px;
+  background: none;
+  border: 1px solid #fff;
+  position: relative;
 }
-.cirkle-sign{
-    color: #fff;
-    position: absolute;
-    top: 50;
-    left: 50;
+.cirkle-sign {
+  color: #fff;
+  position: absolute;
+  top: 50;
+  left: 50;
 }
 .cirkle-sign:hover,
-.cirkle-sign:visited{
-    color: #fff;
+.cirkle-sign:visited {
+  color: #fff;
 }
-.cirkle-sign{
-    transform: translate(40px, -10px);
-    font-size: 38px;
+.cirkle-sign {
+  transform: translate(40px, -10px);
+  font-size: 38px;
 }
 /*for all section h2 */
-h2{
-    line-height: 0.45;
-    font-size: 56px;
+h2 {
+  line-height: 0.45;
+  font-size: 56px;
 }
 /* NEWEST PRODUCTS */
-#newestProducts img{
-    height: 300px;
+#newestProducts img {
+  height: 300px;
 }
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
 }
-#newestProducts .card:hover{
-    background: #e2e2e2;
-    color: #333;
+#newestProducts .card:hover {
+  background: #e2e2e2;
+  color: #333;
 }
 /* BEST SELLERS */
-#bestSellers .col img{
-    margin-top: 2px;
-    width: 100;
-    height: 100%;
+#bestSellers .col img {
+  margin-top: 2px;
+  width: 100;
+  height: 100%;
 }
-#bestSeller .card-seller:hover{
-    background: #e2e2e2;
-    color: #333;
+#bestSeller .card-seller:hover {
+  background: #e2e2e2;
+  color: #333;
 }
-span{
-    font-size: 22px;
+span {
+  font-size: 22px;
 }
-.text{
-    hyphens: auto;
+.text {
+  hyphens: auto;
 }
 /* ABOUT SECTION */
 #about-us a {
-    color: #333;
-    font-size: 20px;
-} 
-#about-us .cirkle{
-    width: 70px;
-    height: 70px;
-    background: none;
-    border: 1px solid #333;
-    position: relative;
+  color: #333;
+  font-size: 20px;
 }
-#about-us .cirkle-sign{
-    position: absolute;
-    top: 50;
-    left: 50;
+#about-us .cirkle {
+  width: 70px;
+  height: 70px;
+  background: none;
+  border: 1px solid #333;
+  position: relative;
 }
-#about-us .cirkle-sign{
-    transform: translate(40px, -10px);
-    font-size: 38px;
-    color: #333;
+#about-us .cirkle-sign {
+  position: absolute;
+  top: 50;
+  left: 50;
+}
+#about-us .cirkle-sign {
+  transform: translate(40px, -10px);
+  font-size: 38px;
+  color: #333;
+}
+/* Remove underline from the button */
+.titile-about {
+  text-decoration: none !important;
+}
+.btn-link {
+  text-decoration: none !important;
+}
+
+/* Remove focus outline on the button when clicked */
+.btn-link:focus {
+  outline: none !important;
+}
+button:focus {
+  outline: none;
 }
 /* FOOTER */
-.footer{
-    border-top: #a1a1a1 1px solid;
-    border-bottom: #a1a1a1 1px solid;
-    color: #333;
+.footer {
+  border-top: #a1a1a1 1px solid;
+  border-bottom: #a1a1a1 1px solid;
+  color: #333;
 }
-#contact a{
-    color: #333;
+#contact a {
+  color: #333;
 }
-.footer .footer-item-dropdown{
-    font-size: 20px;
+.footer .footer-item-dropdown {
+  font-size: 20px;
 }
-.footer span{
-    font-size: 16px;
+.footer span {
+  font-size: 16px;
 }
 /* ABOUT SITE */
-#about{
-    background: 
-    url(/img/ritual1.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    position: relative;
+#about {
+  background: url(/img/ritual1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
 }
-.dark-overlay-about{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    background: rgb(0, 0, 0, 0.4);
+.dark-overlay-about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.4);
 }
 #about a {
-    color: #fff;
-    font-size: 22px;
+  color: #fff;
+  font-size: 22px;
 }
-#about .cirkle{
-    border: 1px solid #fff;
+#about .cirkle {
+  border: 1px solid #fff;
 }
-#about .cirkle-sign{
-    color: #fff;
+#about .cirkle-sign {
+  color: #fff;
 }
-.img-about-1{
-    position: relative;
+.img-about-1 {
+  position: relative;
 }
-.img-about-2{
-    position: absolute;
-    top: 60px;
-    left: 40;
+.img-about-2 {
+  position: absolute;
+  top: 60px;
+  left: 40;
 }
 /* OUR PRODUCTS */
-#ourProduct{
-    background: 
-    url(/img/seller1.jpeg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    position: relative;
+#ourProduct {
+  background: url(/img/seller1.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
 }
-.dark-overlay-ourProduct{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    background: rgb(0, 0, 0, 0.4);
+.dark-overlay-ourProduct {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.4);
 }
 #ourProduct a {
-    color: #fff;
-    font-size: 22px;
+  color: #fff;
+  font-size: 22px;
 }
-#ourProduct .cirkle{
-    border: 1px solid #fff;
+#ourProduct .cirkle {
+  border: 1px solid #fff;
 }
-#ourProduct .cirkle-sign{
-    color: #fff;
+#ourProduct .cirkle-sign {
+  color: #fff;
 }
-.ourProduct .card:hover{
-    background: #e2e2e2;
-    color: #333;
+.ourProduct .card:hover {
+  background: #e2e2e2;
+  color: #333;
 }
-.ourProduct .title{
-    border-bottom: 1px solid #333;
-    border-top: 1px solid #333;
+.ourProduct .title {
+  border-bottom: 1px solid #333;
+  border-top: 1px solid #333;
 }
 /*  */
-#characteristics h3{
-    color: #333;
-    line-height: 0.3;
+#characteristics h3 {
+  color: #333;
+  line-height: 0.3;
 }
-#characteristics .price{
-    font-size: 24px;
+#characteristics .price {
+  font-size: 24px;
 }
 /* Contact */
 /* OUR PRODUCTS */
-#contact-hero{
-    background: 
-    url(/img/seller\ 2.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 610px;
-    position: relative;
+#contact-hero {
+  background: url(/img/seller\ 2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 610px;
+  position: relative;
 }
-.dark-overlay-contact{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 610px;
-    width: 100%;
-    background: rgb(0, 0, 0, 0.4);
+.dark-overlay-contact {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 610px;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.4);
 }
-
-
