@@ -233,33 +233,5 @@
         $(this).ekkoLightbox();
       });
     </script>
-    <a href="#" class="nav-link" id="homeLink">Home</a>
-    <a href="#" class="nav-link" id="aboutLink">About</a>
-
-    <div id="content">
-      <!-- Content will load here -->
-    </div>
-
-    <script>
-      document
-        .getElementById("homeLink")
-        .addEventListener("click", function () {
-          loadHome();
-        });
-
-      document
-        .getElementById("aboutLink")
-        .addEventListener("click", function () {
-          loadAbout();
-        });
-
-      function loadHome() {
-        document.getElementById("content").innerHTML = "<h1>Home Page</h1>";
-      }
-
-      function loadAbout() {
-        document.getElementById("content").innerHTML = "<h1>About Page</h1>";
-      }
-    </script>
   </body>
 </html>
