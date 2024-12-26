@@ -4,7 +4,7 @@ body {
 }
 /* HOME */
 #home {
-  background: url("./img/seller7.jpeg");
+  background: url(../img/seller7.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
