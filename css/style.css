@@ -29,8 +29,9 @@ body {
   color: #fff;
   font-size: 22px;
 }
-.active {
+.nav-item.nav-link.active {
   border-bottom: #fff 2px solid;
+  width: 80px;
 }
 i {
   font-size: 18px;
@@ -160,14 +161,14 @@ button:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  height: 400px;
   position: relative;
 }
 .dark-overlay-about {
   position: absolute;
   top: 0;
   left: 0;
-  height: 200px;
+  height: 400px;
   width: 100%;
   background: rgb(0, 0, 0, 0.4);
 }
@@ -249,4 +250,25 @@ button:focus {
   height: 610px;
   width: 100%;
   background: rgb(0, 0, 0, 0.4);
+}
+@media (max-width: 600px) {
+  .title {
+    display: none;
+  }
+  #about {
+    background: url("/img/ritual1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+    position: relative;
+  }
+  .dark-overlay-about {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 610px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.4);
+  }
 }
