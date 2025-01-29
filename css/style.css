@@ -196,14 +196,14 @@ button:focus {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  height: 400px;
   position: relative;
 }
 .dark-overlay-ourProduct {
   position: absolute;
   top: 0;
   left: 0;
-  height: 200px;
+  height: 400px;
   width: 100%;
   background: rgb(0, 0, 0, 0.4);
 }
@@ -252,9 +252,6 @@ button:focus {
   background: rgb(0, 0, 0, 0.4);
 }
 @media (max-width: 600px) {
-  .title {
-    display: none;
-  }
   #about {
     background: url("/img/ritual1.jpeg");
     background-position: center;
@@ -270,5 +267,9 @@ button:focus {
     height: 610px;
     width: 100%;
     background: rgb(0, 0, 0, 0.4);
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
   }
 }
