@@ -225,12 +225,16 @@ button:focus {
   border-bottom: 1px solid #333;
   border-top: 1px solid #333;
 }
-/*  */
-#characteristics h3 {
+
+.characteristics{
+  display: grid;
+  grid
+}
+.characteristics h3 {
   color: #333;
   line-height: 0.3;
 }
-#characteristics .price {
+.haracteristics .price {
   font-size: 24px;
 }
 /* Contact */
