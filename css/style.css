@@ -1,9 +1,13 @@
 body {
   overflow-x: hidden;
   font-family: serif;
+  max-width: 1550px;
+  margin: 0 auto;
 }
 /* HOME */
 #home {
+  max-width: 1550px;
+  margin: 0 auto;
   background: url(../img/seller7.jpeg);
   background-position: center;
   background-repeat: no-repeat;
@@ -12,6 +16,8 @@ body {
   position: relative;
 }
 .dark-overlay {
+  max-width: 155rem;
+  margin: 0 auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -157,6 +163,8 @@ button:focus {
 }
 /* ABOUT SITE */
 #about {
+  max-width: 1550px;
+  margin: 0 auto;
   background: url("/img/ritual1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
@@ -165,6 +173,8 @@ button:focus {
   position: relative;
 }
 .dark-overlay-about {
+  max-width: 1550px;
+  margin: 0 auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -192,6 +202,8 @@ button:focus {
 }
 /* OUR PRODUCTS */
 #ourProduct {
+  max-width: 1550px;
+  margin: 0 auto;
   background: url("/img/seller1.jpeg");
   background-position: bottom;
   background-repeat: no-repeat;
@@ -200,6 +212,8 @@ button:focus {
   position: relative;
 }
 .dark-overlay-ourProduct {
+  max-width: 1550px;
+  margin: 0 auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -236,6 +250,8 @@ button:focus {
 /* Contact */
 /* OUR PRODUCTS */
 #contact-hero {
+  max-width: 1550px;
+  margin: 0 auto;
   background: url("/img/seller\ 2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
@@ -244,6 +260,8 @@ button:focus {
   position: relative;
 }
 .dark-overlay-contact {
+  max-width: 1550px;
+  margin: 0 auto;
   position: absolute;
   top: 0;
   left: 0;
