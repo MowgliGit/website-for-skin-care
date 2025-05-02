@@ -249,6 +249,9 @@ button:focus {
 }
 /* Contact */
 /* OUR PRODUCTS */
+.icon {
+  cursor: default;
+}
 #contact-hero {
   max-width: 1550px;
   margin: 0 auto;
